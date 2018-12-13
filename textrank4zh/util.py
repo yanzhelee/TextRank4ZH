@@ -1,12 +1,6 @@
 #-*- encoding:utf-8 -*-
-"""
-@author:   letian
-@homepage: http://www.letiantian.me
-@github:   https://github.com/someus/
-"""
 from __future__ import (absolute_import, division, print_function,
                         unicode_literals)
-
 import os
 import math
 import networkx as nx
@@ -195,6 +189,3 @@ def sort_sentences(sentences, words, sim_func = get_similarity, pagerank_config 
         sorted_sentences.append(item)
 
     return sorted_sentences
-
-if __name__ == '__main__':
-    pass

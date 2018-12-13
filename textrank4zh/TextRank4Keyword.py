@@ -1,15 +1,8 @@
 #-*- encoding:utf-8 -*-
-"""
-@author:   letian
-@homepage: http://www.letiantian.me
-@github:   https://github.com/someus/
-"""
 from __future__ import (absolute_import, division, print_function,
                         unicode_literals)
-
 import networkx as nx
 import numpy as np
-
 from . import util
 from .Segmentation import Segmentation
 
@@ -135,6 +128,3 @@ class TextRank4Keyword(object):
 
         return [phrase for phrase in keyphrases 
                 if self.text.count(phrase) >= min_occur_num]
-
-if __name__ == '__main__':
-    pass

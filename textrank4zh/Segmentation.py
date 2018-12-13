@@ -1,16 +1,9 @@
 #-*- encoding:utf-8 -*-
-"""
-@author:   letian
-@homepage: http://www.letiantian.me
-@github:   https://github.com/someus/
-"""
 from __future__ import (absolute_import, division, print_function,
                         unicode_literals)
-
 import jieba.posseg as pseg
 import codecs
 import os
-
 from . import util
 
 def get_default_stop_words_file():
@@ -138,8 +131,3 @@ class Segmentation(object):
                     words_no_stop_words = words_no_stop_words, 
                     words_all_filters   = words_all_filters
                 )
-    
-        
-
-if __name__ == '__main__':
-    pass

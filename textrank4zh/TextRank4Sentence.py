@@ -1,15 +1,8 @@
 #-*- encoding:utf-8 -*-
-"""
-@author:   letian
-@homepage: http://www.letiantian.me
-@github:   https://github.com/someus/
-"""
 from __future__ import (absolute_import, division, print_function,
                         unicode_literals)
-
 import networkx as nx
 import numpy as np
-
 from . import util
 from .Segmentation import Segmentation
 
@@ -88,7 +81,3 @@ class TextRank4Sentence(object):
                 result.append(item)
                 count += 1
         return result
-    
-
-if __name__ == '__main__':
-    pass
